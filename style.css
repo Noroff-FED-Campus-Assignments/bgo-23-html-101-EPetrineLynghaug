@@ -1,3 +1,8 @@
+* {
+    margin: o;
+    padding: 0;
+}
+
 header {
     background-color: #333; 
     color: #fff;
@@ -34,7 +39,4 @@ main{
     background-color: #fff;
     font-family:  Arial, Helvetica, sans-serif;
 
-}
-footer{
-    
 }
