@@ -1,0 +1,40 @@
+header {
+    background-color: #333; 
+    color: #fff;
+    width: 100%; 
+    position: fixed; 
+    top: 0; 
+    left: 0; 
+    border-bottom: solid rgb(74, 80, 74);
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+/* Navmeny */
+nav ul {
+    list-style-type: none; /* Tar vekk bulletpointene */
+    padding: 0; /* Remove default padding */
+    
+}
+
+nav ul li {
+    display: inline; /* Display menu items inline */
+    margin-right: 20px; /* Add spacing between menu items */
+}
+
+nav ul li a {
+    text-decoration: none; /* Remove underlines from links */
+    color: #fff; /* Link text color */
+    margin-right: 0px;
+    
+    
+}
+main{
+    background-color: #fff;
+    font-family:  Arial, Helvetica, sans-serif;
+
+}
+footer{
+    
+}
