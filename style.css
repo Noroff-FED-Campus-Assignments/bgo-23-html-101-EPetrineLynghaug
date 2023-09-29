@@ -4,7 +4,7 @@
 }
 
 header {
-    background-color: #333; 
+    background-color: #000000; 
     color: #fff;
     width: 100%; 
     position: fixed; 
@@ -13,24 +13,28 @@ header {
     border-bottom: solid rgb(74, 80, 74);
     text-align: left;
     font-family: Arial, Helvetica, sans-serif;
-    
+}
+.logo{
+    width: 0px;
+    height: 2%;
+    flex-shrink: 0;    
 }
 
 /* Navmeny */
 nav ul {
-    list-style-type: none; /* Tar vekk bulletpointene */
-    padding: 0; /* Remove default padding */
+    list-style-type: none; 
+    padding: 0; 
     
 }
 
 nav ul li {
-    display: inline; /* Display menu items inline */
-    margin-right: 20px; /* Add spacing between menu items */
+    display: inline; 
+    margin-right: 20px; 
 }
 
 nav ul li a {
-    text-decoration: none; /* Remove underlines from links */
-    color: #fff; /* Link text color */
+    text-decoration: none; 
+    color: #fff; 
     margin-right: 0px;
     
     
